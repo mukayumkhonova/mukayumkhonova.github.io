@@ -165,7 +165,6 @@ a.enroll-button:hover {
     background: #3ee792 none repeat scroll 0 0;
     opacity: 0.75;
 }
-
 .video-promo-details {
     border-radius: 10px;
 }
@@ -173,9 +172,9 @@ a.enroll-button:hover {
 .video-promo-content {
     color: #ffffff;
     left: 0;
+    top: 50%;
     position: absolute;
     text-align: center;
-    top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 100%;
@@ -319,6 +318,7 @@ a.enroll-button:hover {
     overflow: hidden;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    margin-bottom: 15px;
 }
 
 .blog-thumb {
