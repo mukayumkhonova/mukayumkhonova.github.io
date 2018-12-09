@@ -119,20 +119,6 @@ jQuery(document).on('ready', function ($) {
 
 }(jQuery));
 
-/*------------------------------
-    AUDIO
---------------------------------*/
-
-var wavesurfer = WaveSurfer.create({
-    container: '#module-audio',
-    waveColor: 'violet',
-    progressColor: 'purple'
-});
-
-function play(){
-    wavesurfer.load("assets/audio/Mohsen Yeganeh - Behet Ghol Midam ( I promise you ).mp3")
-};
-
 jQuery(window).on('load', function () {
     "use strict";
     /*--------------------------
