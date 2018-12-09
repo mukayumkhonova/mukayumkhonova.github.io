@@ -150,7 +150,46 @@ a.enroll-button:hover {
 }
 
 /*--------------------------------
-    5. VIDEO AREA
+    5.1. AUDIO AREA
+---------------------------------*/
+
+.module-audio {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#waveform {
+    width: 90%;
+}
+.module-audio.audio-time {
+  width: 5%;
+}
+
+.audio-area-popup {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #3ee792;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    height: 70px;
+    line-height: 1;
+    padding-left: 5px;
+    padding-top: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 70px;
+}
+
+.audio-area-popup:hover {
+    background: #3ee792 none repeat scroll 0 0;
+    -webkit-box-shadow: 0 0 10px 10px #ffffff;
+    box-shadow: 0 0 10px 10px #ffffff;
+    color: #ffffff;
+}
+
+/*--------------------------------
+    5.2 VIDEO AREA
 ---------------------------------*/
 
 .video-area .area-bg::before {
