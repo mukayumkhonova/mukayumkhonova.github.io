@@ -24,7 +24,9 @@
     /*height: 100%;*/
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
+    min-height: 101px;
+    background: #292929;
 }
 
 .welcome-text-area {
