@@ -203,7 +203,7 @@ a.enroll-button:hover {
 .video-promo-content {
     color: #ffffff;
     left: 0;
-    top: 50%;
+    top: 33%;
     position: absolute;
     text-align: center;
     -webkit-transform: translateY(-50%);
